@@ -1,0 +1,198 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.nav ul{
+    list-style: none;
+    background: rgb(187, 192, 214);
+    margin: 0;
+    text-align: right;
+    padding-right: 110px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+
+
+}
+
+.nav li{
+    display: inline-block;
+    
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    width: 150px;
+    display: block;
+    padding: 25px 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 10px;
+    border-radius: 0px;
+    
+}
+
+.nav a:hover{
+    background: black;
+}
+
+.nav a.active,a:hover{
+    background: rgb(227, 227, 8);
+    height: 20px;
+    text-align: center;
+    width: 50px;
+    
+}
+
+
+.nav2 ul{
+    list-style: none;
+    border-top: 2px;
+    background: #224e22;
+    margin-right: 250px;
+    margin-left: 480px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    text-align:center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 0px;
+    width: 30%;
+    
+    
+}
+
+.nav2 li{
+    display: inline-flex;
+    float: center;
+
+    
+}
+
+.nav2 a{
+    text-decoration: none;
+    color: white;
+    width: 80px;
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 10px;
+    border-radius: 0px;
+    
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 8px;
+    cursor: pointer;
+    border-radius: 2px;
+    text-transform: uppercase;
+    
+    
+
+  }
+
+  .button1 {
+    background-color: rgb(36, 36, 230);
+    margin-left: 210px;
+
+}
+
+  .button2 {background-color: rgb(36, 36, 230);}
+  .button3 {background-color: rgb(36, 36, 230);}
+  .button4 {background-color: rgb(36, 36, 230);}
+  .button5 {background-color: rgb(36, 36, 230);}
+  .button6 {background-color: rgb(36, 36, 230);}
+  .button7 {background-color: rgb(36, 36, 230);}
+  .button8 {background-color: rgb(36, 36, 230);}
+  .button9 {background-color: rgb(36, 36, 230);}
+  .button10 {
+    background-color: rgb(36, 36, 230);
+    margin-left: 630px;
+    margin-top: 10px;
+}
+
+.image {
+    display: block;
+    margin-left: 200px;
+    margin-right: 200px;
+    width: 73%;
+    
+  }
+
+  .button11 {
+    background-color: rgb(3, 183, 3);
+    margin-left: 203px;
+    margin-top: 5px;
+    font-size: 20px;
+    color: rgb(50, 45, 45);
+    font-weight: bold;
+    width: 73%;
+    border-radius: 0px;
+
+   }
+
+.main{
+    display: flex;
+    margin-top: 5px;
+}
+
+ .container {
+	overflow: auto;
+}
+.team {
+	color: black;
+	background: rgb(14, 169, 14);
+	padding: 40px 20px;
+    margin-left: 200px;
+    width: 40%;
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.counters {
+	background: black;
+	color: rgb(14, 169, 14);
+	padding: 40px 10px;
+    margin-left: 2px;
+    width: 33%;
+}
+
+.counters .container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 20px;
+	text-align: center;
+}
+
+.counters h2 {
+	color: white;
+	
+}
+.counters h3 {
+	font-size: 10px;
+	
+}
+.counters .counter {
+	font-size: 10px;
+	margin: 10px 0;
+}
